@@ -1,3 +1,4 @@
 #!/bin/bash
-cp ~/Library/Preferences/org.pqrs.Karabiner.plist ./
-cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap ./
+cp ~/Library/Preferences/org.pqrs.Karabiner.plist ./karabiner/
+cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap ./sublime/
+cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings ./sublime/
