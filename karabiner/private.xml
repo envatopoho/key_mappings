@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<root>
+
+
+  <appdef>
+    <appname>SUBLIMETEXT</appname>
+    <equal>com.sublimetext.2</equal>
+  </appdef>
+
+
+  <devicevendordef>
+    <vendorname>DUCKY</vendorname>
+    <vendorid>0x04d9</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>SHINE_5</productname>
+    <productid>0x0159</productid>
+  </deviceproductdef>
+
+  <devicevendordef>
+    <vendorname>APPLE</vendorname>
+    <vendorid>0x05ac</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>MACBOOK_PRO</productname>
+    <productid>0x0274</productid>
+  </deviceproductdef>
+
+
+  <item>
+    <name>Use PC Style Home/End EXCEPT sublime text</name>
+    <identifier>remap.pclikehomeend_emacs_poho</identifier>
+
+    <not>SUBLIMETEXT</not>
+
+    <autogen>__KeyToKey__ FROMKEYCODE_HOME, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::CURSOR_UP,    ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ FROMKEYCODE_HOME, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_UP,    ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ FROMKEYCODE_END,  MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::CURSOR_DOWN,  ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ FROMKEYCODE_END,  MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_DOWN,  ModifierFlag::COMMAND_L</autogen>
+    <block>
+      <!-- Control+Shift+A/E do not work in springpadit.com. -->
+      <!-- Therefore we need to change Shift+Home/End to Command+Shift+Left/Right. -->
+      <only>SAFARI,FIREFOX,THUNDERBIRD,GOOGLE_CHROME,OPERA</only>
+      <autogen>
+        __KeyToKey__
+        FROMKEYCODE_HOME, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        FROMKEYCODE_END, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+        KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
+      </autogen>
+    </block>
+
+    <block>
+      <inputsource_not>AZERTY, DVORAK</inputsource_not>
+      <autogen>__KeyToKey__ FROMKEYCODE_HOME,             KeyCode::A, ModifierFlag::CONTROL_L</autogen>
+      <autogen>__KeyToKey__ FROMKEYCODE_END,              KeyCode::E, ModifierFlag::CONTROL_L</autogen>
+    </block>
+  </item>
+
+
+
+
+  <item>
+    <name>Set modifiers for external keyboard (doesnt work as good as setting it at the system level)</name>
+    <!--    <only>PARALLELS</only>-->
+    <identifier>private.app_shine5_swap_command_and_option</identifier>
+    <block>
+      <device_not>DeviceVendor::APPLE, DeviceProduct::MACBOOK_PRO</device_not>
+      <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::COMMAND_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::CONTROL_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
+    </block>
+  </item>
+
+</root>
