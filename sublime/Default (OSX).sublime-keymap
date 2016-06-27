@@ -1,5 +1,5 @@
 [
-  { "keys": ["ctrl+g"],  "command": "find_next" }, //unneeded?
+  // { "keys": ["ctrl+g"],  "command": "find_next" }, //unneeded?
   { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
 
@@ -31,11 +31,14 @@
   { "keys": ["super+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
   { "keys": ["super+delete"],    "command": "delete_word", "args": { "forward": true, "sub_words": true } },
 
-  { "keys": ["option+tab"],       "command": "next_view_in_stack" },
-  { "keys": ["option+shift+tab"], "command": "prev_view_in_stack" },
+  { "keys": ["super+tab"],       "command": "next_view_in_stack" },
+  { "keys": ["super+shift+tab"], "command": "prev_view_in_stack" },
 
   { "keys": ["super+shift+up"],   "command": "swap_line_up" },
   { "keys": ["super+shift+down"], "command": "swap_line_down" }
 
   // { "keys": ["super+shift+end"],  "command": "move_to", "args": {"to": "eof", "extend": true} }
 ]
+
+//External KBB: | ctrl  | win    | alt  |
+//Mapped to:    | super | option | ctrl |
