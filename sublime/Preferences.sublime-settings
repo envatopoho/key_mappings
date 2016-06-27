@@ -5,6 +5,9 @@
 		"Vintage"
 	],
 	"show_full_path": true,
+  "find_selected_text": true,
+  "scroll_past_end": true,
+  "move_to_limit_on_up_down": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
