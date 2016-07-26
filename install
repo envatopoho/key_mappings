@@ -10,3 +10,4 @@ cp ./sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime
 
 cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/
 
+cp ./dotfiles/.tmux.conf ~/.tmux.conf

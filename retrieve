@@ -11,3 +11,5 @@ defaults export com.divisiblebyzero.Spectacle - > ./spectacle/com.divisiblebyzer
 
 cp ~/Library/Preferences/com.googlecode.iterm2.plist ./iterm2/
 defaults export com.googlecode.iterm2 - > ./iterm2/com.googlecode.iterm2.xml
+
+cp ~/.tmux.conf ./dotfiles/.tmux.conf
