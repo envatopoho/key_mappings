@@ -10,6 +10,7 @@
   { "keys": ["ctrl+enter"], "command": "find_all", "args": {"close_panel": true},
      "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
   },
+  { "keys": ["f3"],       "command": "find_next"},
 
   { "keys": ["home"],       "command": "move_to", "args": {"to": "bol", "extend": false} },
   { "keys": ["end"],        "command": "move_to", "args": {"to": "eol", "extend": false} },
