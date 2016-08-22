@@ -1,4 +1,4 @@
-_Git Tab Completion
+## Git Tab Completion
 
 http://code-worrier.com/blog/autocomplete-git/
 
