@@ -1,0 +1,44 @@
+[
+  // { "keys": ["ctrl+g"],  "command": "find_next" }, //unneeded?
+  { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+
+  // Find all with cmd+enter instead of opt+enter
+  { "keys": ["super+enter"], "command": "find_all", "args": {"close_panel": true},
+     "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+  },
+  { "keys": ["ctrl+enter"], "command": "find_all", "args": {"close_panel": true},
+     "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+  },
+
+  { "keys": ["home"],       "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["end"],        "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["shift+end"],  "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+  { "keys": ["super+home"],       "command": "move_to", "args": {"to": "bof", "extend": false} },
+  { "keys": ["super+end"],        "command": "move_to", "args": {"to": "eof", "extend": false} },
+  { "keys": ["super+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+  { "keys": ["super+shift+end"],  "command": "move_to", "args": {"to": "eof", "extend": true} },
+  // { "keys": ["end"],  "command": "move_to", "args": {"to": "eof", "extend": false} },
+
+
+  // { "keys": ["super+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+  // { "keys": ["super+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+  // { "keys": ["super+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+  // { "keys": ["super+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+  // { "keys": ["super+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
+  // { "keys": ["super+delete"],    "command": "delete_word", "args": { "forward": true, "sub_words": true } },
+
+  // { "keys": ["super+tab"],       "command": "next_view_in_stack" },
+  // { "keys": ["super+shift+tab"], "command": "prev_view_in_stack" },
+
+  { "keys": ["super+shift+up"],   "command": "swap_line_up" },
+  { "keys": ["super+shift+down"], "command": "swap_line_down" }
+
+  // { "keys": ["super+shift+end"],  "command": "move_to", "args": {"to": "eof", "extend": true} }
+]
+
+//External KBB: | ctrl  | win    | alt  |
+//Mapped to:    | super | option | ctrl |

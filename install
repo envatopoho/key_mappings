@@ -1,13 +1,19 @@
 #!/bin/bash
+
+#Karabiner
 cp ./karabiner/org.pqrs.Karabiner.plist ~/Library/Preferences/org.pqrs.Karabiner.plist
 cp ./karabiner/private.xml ~/Library/Application\ Support/Karabiner/private.xml
 
-cp ./sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
-cp ./sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+#Sublime text 2
+cp ./sublime/2/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
+cp ./sublime/2/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 
-cp ./sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
-cp ./sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+#Sublime text 3
+cp ./sublime/3/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+cp ./sublime/3/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
+#Iterm2
 cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/
 
+#Tmux
 cp ./dotfiles/.tmux.conf ~/.tmux.conf
