@@ -3,8 +3,16 @@
 
 
   <appdef>
-    <appname>SUBLIMETEXT</appname>
+    <appname>ITERM2</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  <appdef>
+    <appname>SUBLIMETEXT2</appname>
     <equal>com.sublimetext.2</equal>
+  </appdef>
+  <appdef>
+    <appname>SUBLIMETEXT3</appname>
+    <equal>com.sublimetext.3</equal>
   </appdef>
 
 
@@ -30,10 +38,12 @@
 
 
   <item>
-    <name>Use PC Style Home/End EXCEPT sublime text</name>
+    <name>Use PC Style Home/End EXCEPT sublime text and iterm2</name>
     <identifier>remap.pclikehomeend_emacs_poho</identifier>
 
-    <not>SUBLIMETEXT</not>
+    <not>SUBLIMETEXT2</not>
+    <not>SUBLIMETEXT3</not>
+    <not>ITERM2</not>
 
     <autogen>__KeyToKey__ FROMKEYCODE_HOME, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::CURSOR_UP,    ModifierFlag::COMMAND_L</autogen>
     <autogen>__KeyToKey__ FROMKEYCODE_HOME, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_UP,    ModifierFlag::COMMAND_L</autogen>
