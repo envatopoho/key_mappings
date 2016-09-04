@@ -5,12 +5,14 @@ cp ./karabiner/org.pqrs.Karabiner.plist ~/Library/Preferences/org.pqrs.Karabiner
 cp ./karabiner/private.xml ~/Library/Application\ Support/Karabiner/private.xml
 
 #Sublime text 2
-cp ./sublime/2/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
-cp ./sublime/2/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+#No longer maintained
+#cp ./sublime/2/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
+#cp ./sublime/2/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 
 #Sublime text 3
 cp ./sublime/3/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 cp ./sublime/3/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+cp ./sublime/3/CucumberStepFinder.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/CucumberStepFinder.sublime-settings
 
 #Iterm2
 cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/

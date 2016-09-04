@@ -6,12 +6,14 @@ defaults export org.pqrs.Karabiner - > ./karabiner/org.pqrs.Karabiner.xml
 cp ~/Library/Application\ Support/Karabiner/private.xml ./karabiner/
 
 #Sublime text 2
-cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap ./sublime/2/
-cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings ./sublime/2/
+#No longer maintained
+#cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap ./sublime/2/
+#cp ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings ./sublime/2/
 
 #Sublime text 3
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap ./sublime/3/
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings ./sublime/3/
+cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/CucumberStepFinder.sublime-settings ./sublime/3/
 
 #Spectacle
 cp ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist ./spectacle/
