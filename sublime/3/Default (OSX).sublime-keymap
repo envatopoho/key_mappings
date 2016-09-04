@@ -81,7 +81,10 @@
   { "keys": ["super+shift+tab"], "command": "prev_view_in_stack" },
 
   { "keys": ["super+shift+up"],   "command": "swap_line_up" },
-  { "keys": ["super+shift+down"], "command": "swap_line_down" }
+  { "keys": ["super+shift+down"], "command": "swap_line_down" },
+
+  //cucumber step finder messes with this
+  { "keys": ["super+y"], "command": "redo_or_repeat" },
 
   // { "keys": ["super+shift+end"],  "command": "move_to", "args": {"to": "eof", "extend": true} }
 ]

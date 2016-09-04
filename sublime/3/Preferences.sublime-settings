@@ -17,6 +17,7 @@
 		"node_modules/**"
 	],
 	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -58,6 +59,5 @@
 	"show_full_path": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"enable_tab_scrolling": false
+	"trim_trailing_white_space_on_save": true
 }
