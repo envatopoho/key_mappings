@@ -229,11 +229,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>2410 228 620 392 1440 -540 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>157 287 918 512 0 0 1920 1177 </string>
+	<string>2166 55 918 512 1920 -240 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1681 7 1677 1013 1680 0 1680 1027 </string>
+	<string>3388 -383 851 1404 1680 -390 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>928 448 585 452 0 0 1920 1177 </string>
+	<string>1681 7 1677 1013 1680 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>252 154 585 452 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_4A7D6D92-197C-4F00-B24B-E4B1AAE70C9E</key>
@@ -434,7 +434,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>tmux</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -487,7 +487,7 @@
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
-			<string></string>
+			<string>tmux</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1070,7 +1070,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-08-31T23:43:26Z</date>
+	<date>2016-11-09T21:11:46Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1116,6 +1116,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.7</string>
+	<string>3.0.10</string>
 </dict>
 </plist>
