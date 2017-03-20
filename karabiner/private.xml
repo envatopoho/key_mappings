@@ -71,6 +71,13 @@
       <autogen>__KeyToKey__ FROMKEYCODE_END,              KeyCode::E, ModifierFlag::CONTROL_L</autogen>
     </block>
   </item>
+<!--
+  <item>
+    <name> ctrl+enter on chrome to go to be www.something.com </name>
+    <only>GOOGLE_CHROME</only>
+    <autogen>__KeyToKey__ KeyCode::COMMAND_L KeyCode::RETURN
+  </item>
+ -->
 
 
 
