@@ -36,6 +36,18 @@
     <productid>0x0274</productid>
   </deviceproductdef>
 
+  <item>
+    <name>Key brightness to pgup/pgdown</name>
+    <identifier>remap.keybightness_pgupdown_poho</identifier>
+    <autogen>__KeyToKey__ ConsumerKeyCode::KEYBOARDLIGHT_LOW, KeyCode::PAGEUP</autogen>
+    <autogen>__KeyToKey__ ConsumerKeyCode::KEYBOARDLIGHT_HIGH, KeyCode::PAGEDOWN</autogen>
+  </item>
+  <item>
+    <name>music prev/next to home/end</name>
+    <identifier>remap.music_homeend_poho</identifier>
+    <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_PREV, KeyCode::HOME</autogen>
+    <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_NEXT, KeyCode::END</autogen>
+  </item>
 
   <item>
     <name>Use PC Style Home/End EXCEPT sublime text and iterm2</name>

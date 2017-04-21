@@ -35,6 +35,10 @@
 		<integer>1</integer>
 		<key>remap.enter2return</key>
 		<integer>1</integer>
+		<key>remap.keybightness_pgupdown_poho</key>
+		<integer>1</integer>
+		<key>remap.music_homeend_poho</key>
+		<integer>1</integer>
 		<key>remap.pclikehomeend_emacs_poho</key>
 		<integer>1</integer>
 		<key>remap.swap_commandtabcontroltab</key>
